@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicModelTrainer", "BasicModelTrainer\BasicModelTrainer.csproj", "{4E13D9AC-7E24-4CE2-A0C2-D46301CEDE54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicModelTrainer-GUI", "BasicModelTrainer\BasicModelTrainer-GUI.csproj", "{4E13D9AC-7E24-4CE2-A0C2-D46301CEDE54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicModelTrainer-Console", "BasicModelTrainer-Console\BasicModelTrainer-Console.csproj", "{1708A4F6-B383-4DF5-8A55-FF40E4BD03F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelTrainer", "ModelTrainer\ModelTrainer.csproj", "{22A03810-01EA-4EE5-BC2C-081A6090876D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{4E13D9AC-7E24-4CE2-A0C2-D46301CEDE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E13D9AC-7E24-4CE2-A0C2-D46301CEDE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E13D9AC-7E24-4CE2-A0C2-D46301CEDE54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1708A4F6-B383-4DF5-8A55-FF40E4BD03F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1708A4F6-B383-4DF5-8A55-FF40E4BD03F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1708A4F6-B383-4DF5-8A55-FF40E4BD03F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1708A4F6-B383-4DF5-8A55-FF40E4BD03F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22A03810-01EA-4EE5-BC2C-081A6090876D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22A03810-01EA-4EE5-BC2C-081A6090876D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22A03810-01EA-4EE5-BC2C-081A6090876D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22A03810-01EA-4EE5-BC2C-081A6090876D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
